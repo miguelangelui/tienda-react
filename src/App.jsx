@@ -3,11 +3,13 @@
 /* import viteLogo from '/vite.svg' */
 /* import './App.css' */
 
+import { API_URL } from "../env"
+
 function App() {
   return (
     <>
       <div>
-        <h1>Vite + React</h1>
+        <h1>Vite + {API_URL}</h1>
       </div>
     </>
   )
