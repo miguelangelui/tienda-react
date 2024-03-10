@@ -3,7 +3,7 @@
 /* import viteLogo from '/vite.svg' */
 /* import './App.css' */
 
-import { API_URL } from "../env"
+import { API_URL } from "../constants/env"
 
 function App() {
   return (
